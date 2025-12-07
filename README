@@ -1,0 +1,54 @@
+# Image Converter - JPG/PNG to Transparent PNG
+
+A simple desktop application built with **PySide6** and **rembg** that allows users to convert images (JPG, PNG, etc.) into **transparent PNGs**. The app supports both **local files** and **image URLs**.
+
+---
+
+## Features
+
+- Select a local image file from your computer.
+- Download an image directly from a URL.
+- Convert the selected image to PNG with a transparent background.
+- Simple, user-friendly graphical interface (GUI) with PySide6.
+- Supports batch folder processing (optional via code).
+
+---
+
+## Requirements
+
+- Python 3.9+
+- [PySide6](https://pypi.org/project/PySide6/)
+- [rembg](https://pypi.org/project/rembg/)
+- [requests](https://pypi.org/project/requests/)
+
+Install dependencies via pip:
+
+```bash
+pip install PySide6 rembg requests
+```
+
+For all requirements installation for rembg go to [rembg](https://pypi.org/project/rembg/)
+
+## Usage
+Clone or download the repository.
+
+Run the application:
+```bash
+python main.py
+```
+
+Use the GUI to:
+
+- Select a local file, or
+
+- Enter an image URL and download it
+
+- Click "Transformer l'image" to convert the image to a transparent PNG.
+
+The converted PNG will be saved in the same folder as the input file.
+
+## Exe file
+To make exe file you can use pyinstaller
+```bash
+pyinstaller --onefile --windowed main.py
+```
