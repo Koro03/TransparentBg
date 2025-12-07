@@ -137,5 +137,3 @@ if __name__ == "__main__":
     window = ImageConverter()
     window.show()
     sys.exit(app.exec())
-
-#https://doc.qt.io/qtforpython-6/_images/pyside6-designer_screenshot.webp
